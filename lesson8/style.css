@@ -1,0 +1,35 @@
+.vvod {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.label {
+    background: url("unchecked.png") no-repeat left center;
+    padding-left: 18px;
+}
+
+input[type=checkbox]:checked+.label {
+    background-image: url("airplane-engines-fill.svg");
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+video {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}

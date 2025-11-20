@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <input type="text" required autofocus placeholder="Имя" class="vvod"><br><br>
+        <input type="email" required placeholder="Имейл" class="vvod"><br><br>
+        <input type="password" required placeholder="Пароль" class="vvod"><br><br>
+        <input type="text" required placeholder="Возраст" class="vvod"><br><br>
+        <input type="date" required placeholder="Дата рождения" class="vvod"><br><br>
+        <input type="tel" required placeholder="Номер телефона" class="vvod"><br><br>
+        <input type="range" required min="0" max="10" step="1"><br><br>
+        <div class="buttons">
+            <input type="reset" value="Очистить" class="button button-blue">
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+    <label><input type="checkbox"><span class="label">text</span></label><br><br>
+    <block class="audio">
+        <audio controls>
+  <source src="your-audio-file.mp3" type="audio/mpeg">
+  <source src="your-audio-file.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio></block>
+    <div>
+        <video controls class="video">
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+    </div>
+</body>
+
+</html>
